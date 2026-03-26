@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FiDownload } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const TopApps = () => {
     const [topApps, setTopApps] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch('/appData.json')
@@ -44,7 +46,9 @@ const TopApps = () => {
             </div>
         );
     }
-
+    if (topApps.length === 0) {
+        return <div className="py-16 text-center">No apps found.</div>;
+    }
 
     return (
         <div className="py-16 bg-white">
@@ -60,8 +64,8 @@ const TopApps = () => {
                     {topApps.map((app) => (
                         <div
                             key={app.id}
-                            onClick={() => window.location.href = `/app/${app.id}`}
-                            className="bg-white border border-gray-200 rounded-3xl overflow-hidden hover:shadow-2xl cursor-pointer transition-all hover:-translate-y-1"
+                            onClick={() => navigate(`/app/${app.id}`)}
+                            className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-2xl cursor-pointer transition-all hover:-translate-y-1"
                         >
                             <img
                                 src={app.image}
@@ -88,7 +92,7 @@ const TopApps = () => {
                     ))}
                 </div>
                 <button
-                    onClick={() => window.location.href = '/apps'}
+                    onClick={() => navigate('/apps')}
                     className="btn btn-primary px-6 py-3 mx-auto items-center text-center justify-center flex mt-10 hover:bg-green-600"
                 >
                     Show All

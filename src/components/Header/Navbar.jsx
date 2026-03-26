@@ -1,13 +1,35 @@
 import React from 'react';
 import logo from './logo.png';
 import { FaGithub } from 'react-icons/fa';
+import { NavLink } from "react-router";
 
 const Navbar = () => {
     const links = (
         <>
-            <li><a className="hover:bg-green-300">Home</a></li>
-            <li><a className="hover:bg-green-300">Apps</a></li>
-            <li><a className="hover:bg-green-300">Installation</a></li>
+            <li><NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
+        }
+      >
+        Home
+      </NavLink></li>
+            <li><NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
+        }
+      >
+        Apps
+      </NavLink></li>
+            <li><NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
+        }
+      >
+        Installation
+      </NavLink></li>
         </>
     );
 
