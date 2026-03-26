@@ -1,0 +1,454 @@
+{
+  "apps": [
+    {
+      "image": "https://picsum.photos/id/1015/300/300",
+      "title": "Todoist",
+      "companyName": "Doist",
+      "id": 1,
+      "description": "Powerful task manager with natural language input, reminders, and team collaboration.",
+      "size": 45.8,
+      "reviews": 1240000,
+      "ratingAvg": 4.7,
+      "downloads": 50000000,
+      "ratings": [
+        { "name": "1 star", "count": 32000 },
+        { "name": "2 star", "count": 45000 },
+        { "name": "3 star", "count": 98000 },
+        { "name": "4 star", "count": 320000 },
+        { "name": "5 star", "count": 745000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/102/300/300",
+      "title": "Notion",
+      "companyName": "Notion Labs",
+      "id": 2,
+      "description": "All-in-one workspace for notes, tasks, databases, and team wikis with AI features.",
+      "size": 128.5,
+      "reviews": 890000,
+      "ratingAvg": 4.6,
+      "downloads": 35000000,
+      "ratings": [
+        { "name": "1 star", "count": 28000 },
+        { "name": "2 star", "count": 52000 },
+        { "name": "3 star", "count": 105000 },
+        { "name": "4 star", "count": 285000 },
+        { "name": "5 star", "count": 420000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/201/300/300",
+      "title": "TickTick",
+      "companyName": "TickTick",
+      "id": 3,
+      "description": "Beautiful task manager with Pomodoro timer, habit tracker, and calendar integration.",
+      "size": 52.3,
+      "reviews": 685000,
+      "ratingAvg": 4.8,
+      "downloads": 28000000,
+      "ratings": [
+        { "name": "1 star", "count": 12000 },
+        { "name": "2 star", "count": 18000 },
+        { "name": "3 star", "count": 45000 },
+        { "name": "4 star", "count": 210000 },
+        { "name": "5 star", "count": 400000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/133/300/300",
+      "title": "Microsoft To Do",
+      "companyName": "Microsoft",
+      "id": 4,
+      "description": "Simple and clean daily planner that syncs perfectly with Outlook.",
+      "size": 38.7,
+      "reviews": 1240000,
+      "ratingAvg": 4.5,
+      "downloads": 45000000,
+      "ratings": [
+        { "name": "1 star", "count": 45000 },
+        { "name": "2 star", "count": 68000 },
+        { "name": "3 star", "count": 185000 },
+        { "name": "4 star", "count": 410000 },
+        { "name": "5 star", "count": 530000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/180/300/300",
+      "title": "Trello",
+      "companyName": "Atlassian",
+      "id": 5,
+      "description": "Visual project management using boards, lists, and cards.",
+      "size": 67.2,
+      "reviews": 980000,
+      "ratingAvg": 4.4,
+      "downloads": 32000000,
+      "ratings": [
+        { "name": "1 star", "count": 52000 },
+        { "name": "2 star", "count": 89000 },
+        { "name": "3 star", "count": 210000 },
+        { "name": "4 star", "count": 310000 },
+        { "name": "5 star", "count": 319000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/251/300/300",
+      "title": "Evernote",
+      "companyName": "Evernote",
+      "id": 6,
+      "description": "Best note-taking app with powerful search and organization.",
+      "size": 89.4,
+      "reviews": 1450000,
+      "ratingAvg": 4.3,
+      "downloads": 42000000,
+      "ratings": [
+        { "name": "1 star", "count": 98000 },
+        { "name": "2 star", "count": 135000 },
+        { "name": "3 star", "count": 280000 },
+        { "name": "4 star", "count": 420000 },
+        { "name": "5 star", "count": 515000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/274/300/300",
+      "title": "Focus@Will",
+      "companyName": "Focus@Will",
+      "id": 7,
+      "description": "Scientifically designed music to boost concentration.",
+      "size": 42.1,
+      "reviews": 245000,
+      "ratingAvg": 4.6,
+      "downloads": 8500000,
+      "ratings": [
+        { "name": "1 star", "count": 8000 },
+        { "name": "2 star", "count": 15000 },
+        { "name": "3 star", "count": 32000 },
+        { "name": "4 star", "count": 85000 },
+        { "name": "5 star", "count": 105000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/201/300/300",
+      "title": "ClickUp",
+      "companyName": "ClickUp",
+      "id": 8,
+      "description": "All-in-one project management with tasks, docs, chat, and AI.",
+      "size": 95.6,
+      "reviews": 520000,
+      "ratingAvg": 4.7,
+      "downloads": 18000000,
+      "ratings": [
+        { "name": "1 star", "count": 12000 },
+        { "name": "2 star", "count": 25000 },
+        { "name": "3 star", "count": 68000 },
+        { "name": "4 star", "count": 165000 },
+        { "name": "5 star", "count": 250000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/133/300/300",
+      "title": "Any.do",
+      "companyName": "Any.do",
+      "id": 9,
+      "description": "Smart to-do list with voice input and daily planner.",
+      "size": 48.9,
+      "reviews": 890000,
+      "ratingAvg": 4.5,
+      "downloads": 25000000,
+      "ratings": [
+        { "name": "1 star", "count": 35000 },
+        { "name": "2 star", "count": 62000 },
+        { "name": "3 star", "count": 145000 },
+        { "name": "4 star", "count": 310000 },
+        { "name": "5 star", "count": 338000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/180/300/300",
+      "title": "Obsidian",
+      "companyName": "Obsidian",
+      "id": 10,
+      "description": "Powerful knowledge base with linked thinking.",
+      "size": 67.3,
+      "reviews": 320000,
+      "ratingAvg": 4.8,
+      "downloads": 12000000,
+      "ratings": [
+        { "name": "1 star", "count": 5000 },
+        { "name": "2 star", "count": 8000 },
+        { "name": "3 star", "count": 28000 },
+        { "name": "4 star", "count": 95000 },
+        { "name": "5 star", "count": 184000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/1015/300/300",
+      "title": "Forest",
+      "companyName": "Seekrtech",
+      "id": 11,
+      "description": "Stay focused by growing virtual trees.",
+      "size": 55.2,
+      "reviews": 1450000,
+      "ratingAvg": 4.7,
+      "downloads": 38000000,
+      "ratings": [
+        { "name": "1 star", "count": 42000 },
+        { "name": "2 star", "count": 65000 },
+        { "name": "3 star", "count": 185000 },
+        { "name": "4 star", "count": 480000 },
+        { "name": "5 star", "count": 680000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/251/300/300",
+      "title": "Google Keep",
+      "companyName": "Google",
+      "id": 12,
+      "description": "Quick notes and reminders with Google sync.",
+      "size": 28.4,
+      "reviews": 2100000,
+      "ratingAvg": 4.4,
+      "downloads": 65000000,
+      "ratings": [
+        { "name": "1 star", "count": 98000 },
+        { "name": "2 star", "count": 165000 },
+        { "name": "3 star", "count": 420000 },
+        { "name": "4 star", "count": 680000 },
+        { "name": "5 star", "count": 735000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/274/300/300",
+      "title": "Habitica",
+      "companyName": "Habitica",
+      "id": 13,
+      "description": "Turn your life into a role-playing game with habits.",
+      "size": 72.1,
+      "reviews": 420000,
+      "ratingAvg": 4.6,
+      "downloads": 15000000,
+      "ratings": [
+        { "name": "1 star", "count": 18000 },
+        { "name": "2 star", "count": 32000 },
+        { "name": "3 star", "count": 75000 },
+        { "name": "4 star", "count": 135000 },
+        { "name": "5 star", "count": 160000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/201/300/300",
+      "title": "Things 3",
+      "companyName": "Cultured Code",
+      "id": 14,
+      "description": "Elegant task manager designed for Apple devices.",
+      "size": 95.8,
+      "reviews": 285000,
+      "ratingAvg": 4.9,
+      "downloads": 8500000,
+      "ratings": [
+        { "name": "1 star", "count": 3000 },
+        { "name": "2 star", "count": 5000 },
+        { "name": "3 star", "count": 12000 },
+        { "name": "4 star", "count": 65000 },
+        { "name": "5 star", "count": 200000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/133/300/300",
+      "title": "RescueTime",
+      "companyName": "RescueTime",
+      "id": 15,
+      "description": "Automatically tracks time spent on apps and websites.",
+      "size": 41.6,
+      "reviews": 185000,
+      "ratingAvg": 4.5,
+      "downloads": 9200000,
+      "ratings": [
+        { "name": "1 star", "count": 12000 },
+        { "name": "2 star", "count": 22000 },
+        { "name": "3 star", "count": 45000 },
+        { "name": "4 star", "count": 62000 },
+        { "name": "5 star", "count": 44000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/180/300/300",
+      "title": "Superlist",
+      "companyName": "Superlist",
+      "id": 16,
+      "description": "Modern all-in-one app combining tasks and notes.",
+      "size": 58.9,
+      "reviews": 95000,
+      "ratingAvg": 4.8,
+      "downloads": 4200000,
+      "ratings": [
+        { "name": "1 star", "count": 2000 },
+        { "name": "2 star", "count": 4000 },
+        { "name": "3 star", "count": 8000 },
+        { "name": "4 star", "count": 32000 },
+        { "name": "5 star", "count": 49000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/1015/300/300",
+      "title": "Motion",
+      "companyName": "Motion",
+      "id": 17,
+      "description": "AI-powered automatic scheduling and task prioritization.",
+      "size": 63.4,
+      "reviews": 145000,
+      "ratingAvg": 4.7,
+      "downloads": 6800000,
+      "ratings": [
+        { "name": "1 star", "count": 5000 },
+        { "name": "2 star", "count": 9000 },
+        { "name": "3 star", "count": 18000 },
+        { "name": "4 star", "count": 48000 },
+        { "name": "5 star", "count": 65000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/251/300/300",
+      "title": "Sunsama",
+      "companyName": "Sunsama",
+      "id": 18,
+      "description": "Daily planner that pulls tasks from multiple tools.",
+      "size": 49.2,
+      "reviews": 78000,
+      "ratingAvg": 4.9,
+      "downloads": 3200000,
+      "ratings": [
+        { "name": "1 star", "count": 1200 },
+        { "name": "2 star", "count": 2500 },
+        { "name": "3 star", "count": 6000 },
+        { "name": "4 star", "count": 25000 },
+        { "name": "5 star", "count": 43300 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/274/300/300",
+      "title": "Brain.fm",
+      "companyName": "Brain.fm",
+      "id": 19,
+      "description": "AI-generated music designed to improve focus.",
+      "size": 37.8,
+      "reviews": 265000,
+      "ratingAvg": 4.6,
+      "downloads": 9500000,
+      "ratings": [
+        { "name": "1 star", "count": 8000 },
+        { "name": "2 star", "count": 15000 },
+        { "name": "3 star", "count": 38000 },
+        { "name": "4 star", "count": 92000 },
+        { "name": "5 star", "count": 112000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/201/300/300",
+      "title": "Pocket Informant",
+      "companyName": "Web Information Solutions",
+      "id": 20,
+      "description": "Powerful all-in-one calendar, task manager, and notes app.",
+      "size": 71.5,
+      "reviews": 185000,
+      "ratingAvg": 4.5,
+      "downloads": 7200000,
+      "ratings": [
+        { "name": "1 star", "count": 9000 },
+        { "name": "2 star", "count": 14000 },
+        { "name": "3 star", "count": 32000 },
+        { "name": "4 star", "count": 65000 },
+        { "name": "5 star", "count": 65000 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/133/300/300",
+      "title": "Akiflow",
+      "companyName": "Akiflow",
+      "id": 21,
+      "description": "Unified inbox for all your tasks, calendars, and emails.",
+      "size": 54.3,
+      "reviews": 92000,
+      "ratingAvg": 4.7,
+      "downloads": 4100000,
+      "ratings": [
+        { "name": "1 star", "count": 2500 },
+        { "name": "2 star", "count": 4800 },
+        { "name": "3 star", "count": 9500 },
+        { "name": "4 star", "count": 31000 },
+        { "name": "5 star", "count": 44200 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/180/300/300",
+      "title": "Routine",
+      "companyName": "Routine",
+      "id": 22,
+      "description": "Modern daily planner with powerful keyboard shortcuts.",
+      "size": 46.7,
+      "reviews": 68000,
+      "ratingAvg": 4.8,
+      "downloads": 2900000,
+      "ratings": [
+        { "name": "1 star", "count": 1800 },
+        { "name": "2 star", "count": 3200 },
+        { "name": "3 star", "count": 7200 },
+        { "name": "4 star", "count": 22000 },
+        { "name": "5 star", "count": 33800 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/1015/300/300",
+      "title": "Clockwise",
+      "companyName": "Clockwise",
+      "id": 23,
+      "description": "AI calendar assistant that protects focus time.",
+      "size": 39.8,
+      "reviews": 125000,
+      "ratingAvg": 4.6,
+      "downloads": 5800000,
+      "ratings": [
+        { "name": "1 star", "count": 4500 },
+        { "name": "2 star", "count": 8200 },
+        { "name": "3 star", "count": 18500 },
+        { "name": "4 star", "count": 42000 },
+        { "name": "5 star", "count": 51800 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/251/300/300",
+      "title": "Fhynix",
+      "companyName": "Fhynix",
+      "id": 24,
+      "description": "AI-powered WhatsApp productivity tool.",
+      "size": 44.2,
+      "reviews": 52000,
+      "ratingAvg": 4.5,
+      "downloads": 3500000,
+      "ratings": [
+        { "name": "1 star", "count": 2800 },
+        { "name": "2 star", "count": 5200 },
+        { "name": "3 star", "count": 9800 },
+        { "name": "4 star", "count": 17000 },
+        { "name": "5 star", "count": 17200 }
+      ]
+    },
+    {
+      "image": "https://picsum.photos/id/274/300/300",
+      "title": "Forma",
+      "companyName": "Forma",
+      "id": 25,
+      "description": "Secure PDF editor with AI features.",
+      "size": 82.6,
+      "reviews": 98000,
+      "ratingAvg": 4.4,
+      "downloads": 6700000,
+      "ratings": [
+        { "name": "1 star", "count": 6500 },
+        { "name": "2 star", "count": 12000 },
+        { "name": "3 star", "count": 21000 },
+        { "name": "4 star", "count": 32000 },
+        { "name": "5 star", "count": 26500 }
+      ]
+    }
+  ]
+}
