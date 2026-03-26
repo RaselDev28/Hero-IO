@@ -27,12 +27,10 @@ const Apps = () => {
     return (
         <div className="w-11/12 mx-auto py-10">
 
-            {/* Header */}
             <div className="text-center mb-8">
                 <h1 className="text-4xl font-bold">Our All Applications</h1>
                 <p className="text-gray-500">Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
-
 
             <div className="flex justify-between items-center mb-6">
                 <h2 className="font-semibold text-lg">Total Apps: {filteredAndSortedApps.length}</h2>
@@ -57,11 +55,9 @@ const Apps = () => {
                 />
             </div>
 
-
             {filteredAndSortedApps.length === 0 && (
                 <p className="text-center text-red-500">No App Found</p>
             )}
-
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {filteredAndSortedApps.map(app => (

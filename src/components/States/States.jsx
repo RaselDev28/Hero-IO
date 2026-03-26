@@ -4,13 +4,13 @@ const States = () => {
     return (
         <div className="bg-primary py-16 md:py-20">
             <div className="max-w-6xl mx-auto px-4">
-                
+
                 <h1 className="text-white font-bold text-center text-3xl md:text-4xl lg:text-5xl">
                     Trusted by Millions, Built for You
                 </h1>
-                
+
                 <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-1">
-                    
+
                     <div className="text-center text-white">
                         <p className="text-gray-200 text-lg">Total Downloads</p>
                         <p className="text-5xl md:text-5xl font-bold mt-3">29.6M</p>

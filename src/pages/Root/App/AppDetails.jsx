@@ -122,7 +122,7 @@ const AppDetails = () => {
               />
               <Bar
                 dataKey="count"
-                fill="#f97316" 
+                fill="#f97316"
                 radius={[0, 4, 4, 0]}
                 barSize={18}
               />

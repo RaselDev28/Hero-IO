@@ -7,29 +7,29 @@ const Navbar = () => {
     const links = (
         <>
             <li><NavLink
-        to="/"
-        className={({ isActive }) =>
-          isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
-        }
-      >
-        Home
-      </NavLink></li>
+                to="/"
+                className={({ isActive }) =>
+                    isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
+                }
+            >
+                Home
+            </NavLink></li>
             <li><NavLink
-        to="/apps"
-        className={({ isActive }) =>
-          isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
-        }
-      >
-        Apps
-      </NavLink></li>
+                to="/apps"
+                className={({ isActive }) =>
+                    isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
+                }
+            >
+                Apps
+            </NavLink></li>
             <li><NavLink
-        to="/installation"
-        className={({ isActive }) =>
-          isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
-        }
-      >
-        Installation
-      </NavLink></li>
+                to="/installation"
+                className={({ isActive }) =>
+                    isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
+                }
+            >
+                Installation
+            </NavLink></li>
         </>
     );
 
