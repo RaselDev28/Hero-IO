@@ -23,7 +23,7 @@ const Navbar = () => {
                 Apps
             </NavLink></li>
             <li><NavLink
-                to="/installation"
+                to="/my-installations"
                 className={({ isActive }) =>
                     isActive ? "bg-green-300 text-black" : "hover:bg-green-300"
                 }
